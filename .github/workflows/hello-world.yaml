@@ -1,6 +1,9 @@
 name: hello-world-workflow
 
-on: push
+on:
+  pull_request:
+    branches:
+      main
 
 jobs:
   hello-world:
